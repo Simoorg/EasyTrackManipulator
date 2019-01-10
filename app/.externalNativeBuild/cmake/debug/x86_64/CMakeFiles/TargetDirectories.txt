@@ -1,0 +1,3 @@
+C:/Inzynierka/EasyTrackManipulator/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/AudioProcessing.dir
+C:/Inzynierka/EasyTrackManipulator/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/edit_cache.dir
+C:/Inzynierka/EasyTrackManipulator/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/rebuild_cache.dir

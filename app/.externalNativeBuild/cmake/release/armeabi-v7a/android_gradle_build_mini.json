@@ -1,0 +1,16 @@
+{
+  "buildFiles": [
+    "C:\\Inzynierka\\EasyTrackManipulator\\app\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\JakuP\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Inzynierka\\EasyTrackManipulator\\app\\.externalNativeBuild\\cmake\\release\\armeabi-v7a --target clean"
+  ],
+  "libraries": {
+    "AudioProcessing-Release-armeabi-v7a": {
+      "artifactName": "AudioProcessing",
+      "buildCommand": "C:\\Users\\JakuP\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Inzynierka\\EasyTrackManipulator\\app\\.externalNativeBuild\\cmake\\release\\armeabi-v7a --target AudioProcessing",
+      "abi": "armeabi-v7a",
+      "output": "C:\\Inzynierka\\EasyTrackManipulator\\app\\build\\intermediates\\cmake\\release\\obj\\armeabi-v7a\\libAudioProcessing.so"
+    }
+  }
+}

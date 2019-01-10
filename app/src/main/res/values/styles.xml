@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Material.Button" parent="Widget.AppCompat.Button">
+        <item name="android:textColor">@color/color_text</item>
+        <item name="backgroundTint">@color/butColor</item>
+    </style>
+
+    <style name="VerticalSeekBar">
+
+        <item name="backgroundColor">@color/eq_empty</item>
+        <item name="progressColor">@color/eq_full</item>
+        <item name="textColor">@color/eq_text</item>
+    </style>
+
+</resources>

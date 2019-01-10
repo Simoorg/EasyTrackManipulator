@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">EasyTrackManipulator</string>
+    <string name="select_audio_file_title">Select an audio file</string>
+    <string name="EqFreq1">64 Hz</string>
+    <string name="EqFreq2">150 Hz</string>
+    <string name="EqFreq3">350 Hz</string>
+    <string name="EqFreq4">1 kHz</string>
+    <string name="EqFreq5">2 kHz</string>
+    <string name="EqFreq6">6 kHz</string>
+    <string name="EqFreq7">12 kHz</string>
+    <string name="EqReset">RESET EQ</string>
+    <string name="equaliser">Equaliser</string>
+    <string name="set_song">Set Song</string>
+    <string-array name="eq_presets">
+        <item>None</item>
+        <item>No bass</item>
+        <item>High and Low</item>
+        <item>Mid only</item>
+    </string-array>
+    <string name="Pitch">Pitch</string>
+    <string name="Tempo">Tempo</string>
+    <string name="choose_a_song">Choose a song</string>
+    <string name="percent">percent</string>
+    <string name="semitones">Semitones</string>
+    <string name="tempo">Tempo</string>
+    <string name="pitch">Pitch</string>
+    <string name="backward">\u003C\u003C</string>
+    <string name="forward">\u003E\u003E</string>
+    <string name="def_length">0:00 / 0:00</string>
+    <string name="remove_vocal">Remove vocal</string>
+    <string name="restore_vocal">Restore vocal</string>
+    <string name="record">Record</string>
+    <string name="stop_record">Stop recording</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="def_zero">0.0</string>
+    <string name="preset">Preset:</string>
+    <string name="record_saved">Recording saved in </string>
+    <string name="cant_record">Sorry, looks like recording feature won\'t work on your device</string>
+    <string name="cant_load">Sorry, something went wrong during song loading, make sure that file is in your device memory or try another method to get the file</string>
+
+
+</resources>

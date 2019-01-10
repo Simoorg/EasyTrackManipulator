@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorPrimary"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EQActivity">
+
+    <abak.tr.com.boxedverticalseekbar.BoxedVertical
+        android:id="@+id/boxed_vertical"
+        android:layout_width="0dp"
+        android:layout_height="337dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="8dp"
+        android:layout_weight="1"
+        style="@style/VerticalSeekBar"
+        app:defaultValue="0"
+        app:imageEnabled="false"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toStartOf="@+id/boxed_vertical2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinner"
+        app:max="10"
+        app:min="-10"
+        app:step="1"
+        app:textBottomPadding="20"
+        app:textEnabled="true"
+        app:textSize="12sp"
+        app:touchDisabled="true" />
+
+    <abak.tr.com.boxedverticalseekbar.BoxedVertical
+        android:id="@+id/boxed_vertical2"
+        android:layout_width="0dp"
+        android:layout_height="336dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="8dp"
+        android:layout_weight="1"        style="@style/VerticalSeekBar"
+
+        app:defaultValue="0"
+        app:imageEnabled="false"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toStartOf="@+id/boxed_vertical3"
+        app:layout_constraintStart_toEndOf="@+id/boxed_vertical"
+        app:layout_constraintTop_toBottomOf="@+id/spinner"
+        app:max="10"
+        app:min="-10"
+        app:step="1"
+        app:textBottomPadding="20"
+        app:textEnabled="true"
+        app:textSize="12sp"
+        app:touchDisabled="true" />
+
+    <abak.tr.com.boxedverticalseekbar.BoxedVertical
+        android:id="@+id/boxed_vertical3"
+        android:layout_width="0dp"
+        android:layout_height="336dp"
+        android:layout_gravity="center"        style="@style/VerticalSeekBar"
+
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="8dp"
+        android:layout_weight="1"
+        app:defaultValue="0"
+        app:imageEnabled="false"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toStartOf="@+id/boxed_vertical4"
+        app:layout_constraintStart_toEndOf="@+id/boxed_vertical2"
+        app:layout_constraintTop_toBottomOf="@+id/spinner"
+        app:max="10"
+        app:min="-10"
+        app:step="1"
+        app:textBottomPadding="20"
+        app:textEnabled="true"
+        app:textSize="12sp"
+        app:touchDisabled="true" />
+
+    <abak.tr.com.boxedverticalseekbar.BoxedVertical
+        android:id="@+id/boxed_vertical4"
+        android:layout_width="0dp"
+        android:layout_height="336dp"        style="@style/VerticalSeekBar"
+
+        android:layout_gravity="center"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="8dp"
+        android:layout_weight="1"
+        app:defaultValue="0"
+        app:imageEnabled="false"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toStartOf="@+id/boxed_vertical5"
+        app:layout_constraintStart_toEndOf="@+id/boxed_vertical3"
+        app:layout_constraintTop_toBottomOf="@+id/spinner"
+        app:layout_constraintVertical_bias="0.503"
+        app:max="10"
+        app:min="-10"
+        app:step="1"
+        app:textBottomPadding="20"
+        app:textEnabled="true"
+        app:textSize="12sp"
+        app:touchDisabled="true" />
+
+    <abak.tr.com.boxedverticalseekbar.BoxedVertical
+        android:id="@+id/boxed_vertical5"
+        android:layout_width="0dp"
+        android:layout_height="336dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="4dp"        style="@style/VerticalSeekBar"
+
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="8dp"
+        android:layout_weight="1"
+        app:defaultValue="0"
+        app:imageEnabled="false"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toStartOf="@+id/boxed_vertical6"
+        app:layout_constraintStart_toEndOf="@+id/boxed_vertical4"
+        app:layout_constraintTop_toBottomOf="@+id/spinner"
+        app:max="10"
+        app:min="-10"
+        app:step="1"
+        app:textBottomPadding="20"
+        app:textEnabled="true"
+        app:textSize="12sp"
+        app:touchDisabled="true" />
+
+    <abak.tr.com.boxedverticalseekbar.BoxedVertical
+        android:id="@+id/boxed_vertical6"
+        android:layout_width="0dp"
+        android:layout_height="336dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="8dp"
+        android:layout_weight="1"
+        style="@style/VerticalSeekBar"
+
+        app:defaultValue="0"
+        app:imageEnabled="false"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toStartOf="@+id/boxed_vertical7"
+        app:layout_constraintStart_toEndOf="@+id/boxed_vertical5"
+        app:layout_constraintTop_toBottomOf="@+id/spinner"
+        app:max="10"
+        app:min="-10"
+        app:step="1"
+        app:textBottomPadding="20"
+        app:textEnabled="true"
+        app:textSize="12sp"
+        app:touchDisabled="true" />
+
+    <abak.tr.com.boxedverticalseekbar.BoxedVertical
+        android:id="@+id/boxed_vertical7"
+        android:layout_width="0dp"        style="@style/VerticalSeekBar"
+
+        android:layout_height="336dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_weight="1"
+        app:defaultValue="0"
+        app:imageEnabled="false"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/boxed_vertical6"
+        app:layout_constraintTop_toBottomOf="@+id/spinner"
+        app:max="10"
+        app:min="-10"
+        app:step="1"
+        app:textBottomPadding="20"
+        app:textEnabled="true"
+        app:textSize="12sp"
+        app:touchDisabled="true" />
+
+    <TextView
+        android:id="@+id/Eqlab1"
+        android:layout_width="43dp"
+        android:layout_height="20dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/EqFreq1"
+        android:textAlignment="center"
+        android:textColor="@color/dark_gray"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/boxed_vertical"
+        app:layout_constraintEnd_toEndOf="@+id/boxed_vertical"
+        app:layout_constraintStart_toStartOf="@+id/boxed_vertical" />
+
+    <TextView
+        android:id="@+id/Eqlab2"
+        android:layout_width="43dp"
+        android:layout_height="20dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/EqFreq2"
+        android:textAlignment="center"
+        android:textColor="@color/dark_gray"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/boxed_vertical2"
+        app:layout_constraintEnd_toEndOf="@+id/boxed_vertical2"
+        app:layout_constraintStart_toStartOf="@+id/boxed_vertical2" />
+
+    <TextView
+        android:id="@+id/Eqlab3"
+        android:layout_width="43dp"
+        android:layout_height="20dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/EqFreq3"
+        android:textAlignment="center"
+        android:textColor="@color/dark_gray"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/boxed_vertical3"
+        app:layout_constraintEnd_toEndOf="@+id/boxed_vertical3"
+        app:layout_constraintStart_toStartOf="@+id/boxed_vertical3" />
+
+    <TextView
+        android:id="@+id/Eqlab4"
+        android:layout_width="43dp"
+        android:layout_height="20dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/EqFreq4"
+        android:textAlignment="center"
+        android:textColor="@color/dark_gray"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/boxed_vertical4"
+        app:layout_constraintEnd_toEndOf="@+id/boxed_vertical4"
+        app:layout_constraintStart_toStartOf="@+id/boxed_vertical4" />
+
+    <TextView
+        android:id="@+id/Eqlab5"
+        android:layout_width="43dp"
+        android:layout_height="20dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/EqFreq5"
+        android:textAlignment="center"
+        android:textColor="@color/dark_gray"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/boxed_vertical5"
+        app:layout_constraintEnd_toEndOf="@+id/boxed_vertical5"
+        app:layout_constraintStart_toStartOf="@+id/boxed_vertical5" />
+
+    <TextView
+        android:id="@+id/Eqlab6"
+        android:layout_width="43dp"
+        android:layout_height="20dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/EqFreq6"
+        android:textAlignment="center"
+        android:textColor="@color/dark_gray"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/boxed_vertical6"
+        app:layout_constraintEnd_toEndOf="@+id/boxed_vertical6"
+        app:layout_constraintStart_toStartOf="@+id/boxed_vertical6" />
+
+    <TextView
+        android:id="@+id/Eqlab7"
+        android:layout_width="43dp"
+        android:layout_height="20dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/EqFreq7"
+        android:textAlignment="center"
+        android:textColor="@color/dark_gray"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/boxed_vertical7"
+        app:layout_constraintEnd_toEndOf="@+id/boxed_vertical7"
+        app:layout_constraintStart_toStartOf="@+id/boxed_vertical7" />
+
+    <android.support.design.button.MaterialButton
+        android:id="@+id/button"
+        style="@style/Material.Button"
+        android:layout_width="211dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:onClick="ResetEQClick"
+        android:text="@string/EqReset"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="161dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/Eqlab4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="56dp"
+        android:layout_height="24dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/preset"
+        android:textColor="@color/dark_gray"
+        app:layout_constraintBottom_toBottomOf="@+id/spinner"
+        app:layout_constraintEnd_toStartOf="@+id/spinner"
+        app:layout_constraintTop_toTopOf="@+id/spinner" />
+
+
+</android.support.constraint.ConstraintLayout>

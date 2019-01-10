@@ -1,0 +1,5 @@
+# ninja log v5
+5	283	0	CMakeFiles/AudioProcessing.dir/C_/Inzynierka/Superpowered/SuperpoweredNBandEQ.cpp.o	4c0f7967907b7414
+3	284	0	CMakeFiles/AudioProcessing.dir/C_/Inzynierka/Superpowered/AndroidIO/SuperpoweredAndroidAudioIO.cpp.o	751a2c0951c42333
+7	451	0	CMakeFiles/AudioProcessing.dir/src/main/cpp/AudioProcessing.cpp.o	aec80e94c6c9640c
+451	738	0	../../../../build/intermediates/cmake/debug/obj/x86/libAudioProcessing.so	f87d9945a9191119

@@ -1,0 +1,11 @@
+# ninja log v5
+3	323	0	CMakeFiles/AudioProcessing.dir/C_/Inzynierka/Superpowered/SuperpoweredNBandEQ.cpp.o	41f71c51a1e91072
+7	326	0	CMakeFiles/AudioProcessing.dir/C_/Inzynierka/Superpowered/AndroidIO/SuperpoweredAndroidAudioIO.cpp.o	95e19171d3aad09a
+10	495	0	CMakeFiles/AudioProcessing.dir/src/main/cpp/AudioProcessing.cpp.o	ed71583a9b4c254e
+495	756	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libAudioProcessing.so	67cb094f442d55f8
+10	408	0	CMakeFiles/AudioProcessing.dir/src/main/cpp/AudioProcessing.cpp.o	ed71583a9b4c254e
+408	643	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libAudioProcessing.so	67cb094f442d55f8
+6	596	0	CMakeFiles/AudioProcessing.dir/src/main/cpp/AudioProcessing.cpp.o	ed71583a9b4c254e
+596	887	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libAudioProcessing.so	67cb094f442d55f8
+4	407	0	CMakeFiles/AudioProcessing.dir/src/main/cpp/AudioProcessing.cpp.o	ed71583a9b4c254e
+407	628	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libAudioProcessing.so	67cb094f442d55f8

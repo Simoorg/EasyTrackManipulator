@@ -1,0 +1,50 @@
+
+{
+	"buildFiles" : [ "C:/Inzynierka/EasyTrackManipulator/app/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"C:\\Users\\JakuP\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Inzynierka\\EasyTrackManipulator\\app\\.externalNativeBuild\\cmake\\debug\\x86 --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"AudioProcessing-Debug-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "AudioProcessing",
+			"buildCommand" : "C:\\Users\\JakuP\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Inzynierka\\EasyTrackManipulator\\app\\.externalNativeBuild\\cmake\\debug\\x86 --target AudioProcessing",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=C:/Users/JakuP/AppData/Local/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/JakuP/AppData/Local/Android/Sdk/ndk-bundle/sysroot  -DAudioProcessing_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp -I..\\..\\..\\..\\..\\..\\Superpowered -isystem C:\\Users\\JakuP\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\sources\\cxx-stl\\llvm-libc++\\include -isystem C:\\Users\\JakuP\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\sources\\android\\support\\include -isystem C:\\Users\\JakuP\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\sources\\cxx-stl\\llvm-libc++abi\\include  -isystem C:/Users/JakuP/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -fsigned-char -IC:\\Inzynierka\\EasyTrackManipulator\\app\\..\\..\\Superpowered -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Inzynierka/EasyTrackManipulator/app/src/main/cpp/AudioProcessing.cpp",
+					"workingDirectory" : "C:/Inzynierka/EasyTrackManipulator/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=C:/Users/JakuP/AppData/Local/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/JakuP/AppData/Local/Android/Sdk/ndk-bundle/sysroot  -DAudioProcessing_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp -I..\\..\\..\\..\\..\\..\\Superpowered -isystem C:\\Users\\JakuP\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\sources\\cxx-stl\\llvm-libc++\\include -isystem C:\\Users\\JakuP\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\sources\\android\\support\\include -isystem C:\\Users\\JakuP\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\sources\\cxx-stl\\llvm-libc++abi\\include  -isystem C:/Users/JakuP/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -fsigned-char -IC:\\Inzynierka\\EasyTrackManipulator\\app\\..\\..\\Superpowered -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Inzynierka/Superpowered/AndroidIO/SuperpoweredAndroidAudioIO.cpp",
+					"workingDirectory" : "C:/Inzynierka/EasyTrackManipulator/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=C:/Users/JakuP/AppData/Local/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/JakuP/AppData/Local/Android/Sdk/ndk-bundle/sysroot  -DAudioProcessing_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp -I..\\..\\..\\..\\..\\..\\Superpowered -isystem C:\\Users\\JakuP\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\sources\\cxx-stl\\llvm-libc++\\include -isystem C:\\Users\\JakuP\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\sources\\android\\support\\include -isystem C:\\Users\\JakuP\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\sources\\cxx-stl\\llvm-libc++abi\\include  -isystem C:/Users/JakuP/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -fsigned-char -IC:\\Inzynierka\\EasyTrackManipulator\\app\\..\\..\\Superpowered -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Inzynierka/Superpowered/SuperpoweredNBandEQ.cpp",
+					"workingDirectory" : "C:/Inzynierka/EasyTrackManipulator/app/.externalNativeBuild/cmake/debug/x86"
+				}
+			],
+			"output" : "C:/Inzynierka/EasyTrackManipulator/app/build/intermediates/cmake/debug/obj/x86/libAudioProcessing.so",
+			"toolchain" : "3247960289"
+		}
+	},
+	"toolchains" : 
+	{
+		"3247960289" : 
+		{
+			"cCompilerExecutable" : "C:/Users/JakuP/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "C:/Users/JakuP/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}
